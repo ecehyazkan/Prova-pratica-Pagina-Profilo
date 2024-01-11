@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+header{
+    background-image: linear-gradient(to bottom right, #f0f0f0, #8142f5);
+    text-align: center;
+    padding: 50px 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1 {
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+.info h2, .info p {
+    text-align: center; 
+   
+}
+.info h2 {
+    font-size: 22px;
+    color: #333; font-weight: bold;
+}
+
+.info p {
+    color: #333;
+    margin: 5px 0;
+}
+
+.social-section {
+    padding: 20px 0;
+    color: white;
+    font-size: 24px;
+    background-color: #8142f5;
+    text-align: center;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+@media (max-width: 600px) {
+    .info, .social-section {
+        padding: 10px;
+    }
+}
+
+.info strong 
+{
+    font-weight: bold;
+}
+.info {
+    background-color: #ffcc00;
+    max-width: 600px;
+    margin: 10px auto 30px;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+header h1 {
+    font-family: 'Open Sans', 'Helvetica Neue' , Arial, sans-serif;
+}
